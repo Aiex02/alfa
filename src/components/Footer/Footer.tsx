@@ -1,25 +1,28 @@
+import { FaWhatsapp, FaLinkedin, FaInstagram } from 'react-icons/fa';
+
 export function Footer() {
   return (
-    <footer className="bg-black text-white p-4">
-      <div className="container mx-auto">
-        <div className="flex items-center justify-between text-white">
-          <div>
-            <p>&copy; 2023 Seu Site. Todos os direitos reservados.</p>
+    <footer className="bg-black text-white py-2">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between text-center text-md-left">
+        <div className="mb-2 md:mb-0">
+          <h1 className="text-3xl font-bold text-white">*LOGO*</h1>
+          <p>&copy; 2023 Seu Site. Todos os direitos reservados.</p>
+        </div>
+        <div className="flex items-center space-x-4">
+          <div className="flex space-x-4 items-center">
+            <FaWhatsapp size={24} />
+            <a href="#">WhatsApp</a>
           </div>
-          <div>
-            <ul className="flex space-x-4">
-              <li>
-                <a href="/privacy-policy">Política de Privacidade</a>
-              </li>
-              <li>
-                <a href="/terms-of-service">Termos de Serviço</a>
-              </li>
-            </ul>
+          <div className="flex space-x-4 items-center">
+            <FaLinkedin size={24} />
+            <a href="#">LinkedIn</a>
+          </div>
+          <div className="flex space-x-4 items-center">
+            <FaInstagram size={24} />
+            <a href="#">Instagram</a>
           </div>
         </div>
       </div>
     </footer>
   );
-};
-
-
+}

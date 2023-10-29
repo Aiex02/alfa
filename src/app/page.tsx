@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { NavBar } from '@/components/NavBar/NavBar'
+import { NavBar } from '../components/NavBar/NavBar'
 import { Spacer } from '@/components/Spacer/Spacer'
 import { Footer } from '@/components/Footer/Footer'
 import { AboutUs } from '@/components/AboutUs/AboutUs'

@@ -4,7 +4,6 @@ export function AboutUs() {
   return (
     <div id="aboutUs" className="p-4 bg-black shadow-md rounded-md">
       <h1 className="text-3xl font-bold text-white mb-4">Sobre Nós</h1>
-
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 pr-4">
           <h2 className="text-xl font-semibold text-white">Nossa História</h2>

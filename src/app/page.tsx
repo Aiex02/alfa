@@ -7,6 +7,7 @@ import { AboutUs } from '@/components/AboutUs/AboutUs'
 import { Ilustration } from '@/components/Ilustration/Ilustration'
 import { Services } from '@/components/Services/Services'
 import { Tech } from '@/components/Tech/Tech'
+import { Contact } from '@/components/Contact/contact'
 
 export default function Home() {
   return (
@@ -20,8 +21,9 @@ export default function Home() {
       <Spacer />
       <Tech />
       <Spacer />
+      <Contact />
+      <Spacer />
       <Footer />
-      
       </>
   )
 }

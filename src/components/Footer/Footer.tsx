@@ -2,7 +2,7 @@ import { FaWhatsapp, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 export function Footer() {
   return (
-    <footer className="bg-black text-white py-2">
+    <footer id='contact' className="bg-black text-white py-2">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between text-center text-md-left">
         <div className="mb-2 md:mb-0">
           <h1 className="text-3xl font-bold text-white">*LOGO*</h1>

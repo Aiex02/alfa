@@ -12,7 +12,7 @@ export default function Home() {
   return (
       <>
       <NavBar />
-      <Ilustration />
+      <Ilustration/>
       <Spacer />
       <AboutUs />
       <Spacer />

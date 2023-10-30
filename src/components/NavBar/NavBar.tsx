@@ -1,8 +1,9 @@
 'use client'
 import React, { useState } from 'react';
 import Image from 'next/image';
+
+
 import navicon from '@/assets/navicon.png';
-import { ItemMenu } from './ItemMenu';
 
 export function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -30,13 +31,13 @@ export function NavBar() {
             <div className="ml-10 flex items-baseline space-x-4">
               <ul className="flex">
                 <li className="hover:bg-white hover:text-black rounded-lg p-2 text-green-300">
-                  <ItemMenu name="Home" />
+                  <a href="#home">Home</a>
                 </li>
                 <li className="hover:bg-white hover:text-black rounded-lg p-2">
-                  <ItemMenu name="About Us" />
+                  <a href="#aboutUs">About Us</a>
                 </li>
                 <li className="hover:bg-white hover:text-black rounded-lg p-2">
-                  <ItemMenu name="Contact" />
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -52,13 +53,13 @@ export function NavBar() {
         <div className="md:hidden">
           <ul className="bg-black text-white p-2 space-y-2">
             <li onClick={closeMobileMenu}>
-              <ItemMenu name="Home" />
+              <a href="#home">Home</a>
             </li>
             <li onClick={closeMobileMenu}>
-              <ItemMenu name="About Us" />
+              <a href="#aboutUs">About Us</a>
             </li>
             <li onClick={closeMobileMenu}>
-              <ItemMenu name="Contact" />
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

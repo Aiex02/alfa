@@ -34,10 +34,16 @@ export function NavBar() {
                   <a href="#home">Home</a>
                 </li>
                 <li className="hover:bg-white hover:text-black rounded-lg p-2">
-                  <a href="#aboutUs">About Us</a>
+                  <a href="#aboutUs">Sobre Nós</a>
                 </li>
                 <li className="hover:bg-white hover:text-black rounded-lg p-2">
-                  <a href="#contact">Contact</a>
+                  <a href="#technology">Tecnologias</a>
+                </li>
+                <li className="hover:bg-white hover:text-black rounded-lg p-2">
+                  <a href="#service">Serviços</a>
+                </li>
+                <li className="hover:bg-white hover:text-black rounded-lg p-2">
+                  <a href="#contact">Contato</a>
                 </li>
               </ul>
             </div>
@@ -51,12 +57,18 @@ export function NavBar() {
       </div>
       {isMobileMenuOpen && (
         <div className="md:hidden">
-          <ul className="bg-black text-white p-2 space-y-2">
+          <ul className="bg-black text-white p-6 space-y-2 float-right text-center ">
             <li onClick={closeMobileMenu}>
               <a href="#home">Home</a>
             </li>
             <li onClick={closeMobileMenu}>
-              <a href="#aboutUs">About Us</a>
+              <a href="#aboutUs">Sobre Nós</a>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <a href="#technology">Tecnologias</a>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <a href="#service">Serviços</a>
             </li>
             <li onClick={closeMobileMenu}>
               <a href="#contact">Contact</a>

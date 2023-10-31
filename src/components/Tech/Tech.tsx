@@ -1,6 +1,6 @@
 export function Tech() {
   return (
-    <div className="text-center p-4 bg-black mx-auto">
+    <div id="technology" className="text-center p-4 bg-black mx-auto">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl text-white font-bold mt-4">Tecnologias</h1>
         <p className="text-white mt-4">

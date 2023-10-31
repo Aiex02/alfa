@@ -20,16 +20,18 @@ export function Footer() {
                 <p className="mb-1">(22) 99878-0228</p>
               </div>
             </div>
-            <div className="text-xs space-x-4 items-center">
-              <span style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <div className="text-xs space-x-4 items-center p-1">
+              <span className="flex flex-col items-center ">
                 <FaMapMarkerAlt size={15} />
                 <span>Av.Atlântica, nº 2650, Cavaleiros - Macaé/RJ</span>
               </span>
             </div>
           </div>
-          <div className="flex items-center space-x-4">
-            <div className="flex space-x-4 items-center">
-              <FaWhatsapp size={24} />
+          <div className="flex items-center p-2">
+            <div className="flex space-x-2 items-center">
+              <a href="#">
+                <FaWhatsapp size={24} />
+              </a>
               <a href="#">WhatsApp</a>
             </div>
           </div>

@@ -29,7 +29,7 @@ export function NavBar() {
           </div>
           <div className="hidden md:block text-white">
             <div className="ml-10 flex items-baseline space-x-4">
-              <ul className="flex">
+              <ul className="flex mx-8">
                 <li className="hover:bg-white hover:text-black rounded-lg p-2 text-green-300">
                   <a href="#home">Home</a>
                 </li>
@@ -37,10 +37,13 @@ export function NavBar() {
                   <a href="#aboutUs">Sobre Nós</a>
                 </li>
                 <li className="hover:bg-white hover:text-black rounded-lg p-2">
+                  <a href="#service">Serviços</a>
+                </li>
+                <li className="hover:bg-white hover:text-black rounded-lg p-2">
                   <a href="#technology">Tecnologias</a>
                 </li>
                 <li className="hover:bg-white hover:text-black rounded-lg p-2">
-                  <a href="#service">Serviços</a>
+                  <a href="#clients">Clientes</a>
                 </li>
                 <li className="hover:bg-white hover:text-black rounded-lg p-2">
                   <a href="#contact">Contato</a>
@@ -56,7 +59,7 @@ export function NavBar() {
         </div>
       </div>
       {isMobileMenuOpen && (
-        <div className="md:hidden">
+        <div className="md:hidden absolute right-0">
           <ul className="bg-black text-white p-6 space-y-2 float-right text-center ">
             <li onClick={closeMobileMenu}>
               <a href="#home">Home</a>
@@ -65,10 +68,13 @@ export function NavBar() {
               <a href="#aboutUs">Sobre Nós</a>
             </li>
             <li onClick={closeMobileMenu}>
+              <a href="#service">Serviços</a>
+            </li>
+            <li onClick={closeMobileMenu}>
               <a href="#technology">Tecnologias</a>
             </li>
             <li onClick={closeMobileMenu}>
-              <a href="#service">Serviços</a>
+              <a href="#clients">Clientes</a>
             </li>
             <li onClick={closeMobileMenu}>
               <a href="#contact">Contact</a>

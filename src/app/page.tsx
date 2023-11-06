@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 import { NavBar } from '../components/NavBar/NavBar'
 import { Spacer } from '@/components/Spacer/Spacer'
@@ -8,6 +7,7 @@ import { Ilustration } from '@/components/Ilustration/Ilustration'
 import { Services } from '@/components/Services/Services'
 import { Tech } from '@/components/Tech/Tech'
 import { Contact } from '@/components/Contact/contact'
+import { Clients } from '@/components/Clients/clients'
 
 export default function Home() {
   return (
@@ -20,6 +20,8 @@ export default function Home() {
       <Services />
       <Spacer />
       <Tech />
+      <Spacer />
+      <Clients />
       <Spacer />
       <Contact />
       <Spacer />

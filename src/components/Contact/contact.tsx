@@ -34,14 +34,14 @@ export function Contact() {
   });
 
   return (
-    <div className="flex flex-col items-center mt-8">
-      <h1 className="text-3xl font-semibold text-gray-800 mb-4">Contato</h1>
+    <div className="flex flex-col items-center bg-black">
+      <h1 className="text-3xl font-semibold text-white mb-4 mt-5">Contato</h1>
       <form
         onSubmit={formik.handleSubmit}
-        className="w-full max-w-md sm:w-2/3 md:w-1/2 p-3"
+        className="w-full max-w-md sm:w-2/3 md:w-1/2 p-5"
       >
         <div className="mb-4">
-          <label htmlFor="name" className="block text-gray-700 font-semibold">
+          <label htmlFor="name" className="block text-white font-semibold">
             Nome:
           </label>
           <input
@@ -61,7 +61,7 @@ export function Contact() {
 
         <div className="mb-4 flex space-x-2">
           <div className="w-1/2">
-            <label htmlFor="email" className="block text-gray-700 font-semibold">
+            <label htmlFor="email" className="block text-white font-semibold">
               Email:
             </label>
             <input
@@ -80,7 +80,7 @@ export function Contact() {
           </div>
 
           <div className="w-1/2">
-            <label htmlFor="phone" className="block text-gray-700 font-semibold">
+            <label htmlFor="phone" className="block text-white font-semibold">
               Celular:
             </label>
             <input
@@ -100,7 +100,7 @@ export function Contact() {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="message" className="block text-gray-700 font-semibold">
+          <label htmlFor="message" className="block text-white font-semibold">
             Mensagem:
           </label>
           <textarea
@@ -119,7 +119,7 @@ export function Contact() {
 
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white py-2 px-4 rounded hover-bg-blue-700 text-lg"
+          className="w-full bg-blue-500 text-white py-2 px-4 rounded hover-bg-blue-700 text-lg "
         >
           Enviar
         </button>

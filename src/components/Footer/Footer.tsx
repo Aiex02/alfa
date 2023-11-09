@@ -23,7 +23,7 @@ export function Footer() {
             <div className="text-xs space-x-4 items-center p-1">
               <span className="flex flex-col items-center ">
                 <FaMapMarkerAlt size={15} />
-                <span>Av.Atlântica, nº 2650, Cavaleiros - Macaé/RJ</span>
+                <span className="py-2">Av.Atlântica, nº 2650, Cavaleiros - Macaé/RJ</span>
               </span>
             </div>
           </div>

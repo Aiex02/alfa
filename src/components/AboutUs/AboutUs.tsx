@@ -8,8 +8,8 @@ export function AboutUs() {
             <h2 className="text-xl font-semibold text-white">Nossa História</h2>
             <p className="text-white mt-2">
               Na jornada de transporte, muitas vezes surge a necessidade de
-              enfrentar desafios regulatórios, como a exigência de um "laudo de
-              opacidade" para continuar as operações comerciais. É aí que a Alfa
+              enfrentar desafios regulatórios, como a exigência de um laudo de
+              opacidade para continuar as operações comerciais. É aí que a Alfa
               Ritill entra em cena. Somos uma empresa dedicada a fornecer soluções
               e serviços de alta qualidade para aqueles que possuem caminhões e
               desejam agregá-los a transportadoras. Ou, se você já é o
@@ -36,7 +36,7 @@ export function AboutUs() {
               enfrentar desafios regulatórios, economizar tempo e recursos, e
               garantir que possam continuar suas operações comerciais sem
               preocupações. Se você está buscando uma solução confiável e um
-              parceiro comprometido para lidar com o "laudo de opacidade" e outras
+              parceiro comprometido para lidar com o laudo de opacidade e outras
               exigências regulatórias, entre em contato conosco. Estamos prontos
               para ajudá-lo a navegar pelo caminho da conformidade e do sucesso no
               transporte. Alfa Ritill: Sua Parceria na Conformidade Regulatória

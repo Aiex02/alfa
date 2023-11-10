@@ -59,8 +59,8 @@ export function NavBar() {
         </div>
       </div>
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute right-0">
-          <ul className="bg-black text-white p-6 space-y-2 float-right text-center ">
+        <div className="md:hidden absolute w-full">
+          <ul className="bg-black text-white p-6 space-y-4 text-center font-bold ">
             <li onClick={closeMobileMenu}>
               <a href="#home">Home</a>
             </li>

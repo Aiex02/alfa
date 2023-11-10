@@ -38,7 +38,7 @@ export function Contact() {
       <h1 className="text-3xl font-semibold text-white mb-4 mt-5">Contato</h1>
       <form
         onSubmit={formik.handleSubmit}
-        className="w-full max-w-md sm:w-2/3 md:w-3/4 lg:w-1/2 xl:w-1/2 p-5"
+        className="w-full max-w-md sm:w-2/3 md:w-1/2 p-5"
       >
         <div className="mb-4">
           <label htmlFor="name" className="block text-white font-semibold">
@@ -59,42 +59,44 @@ export function Contact() {
           )}
         </div>
 
-        <div className="mb-4">
-          <label htmlFor="phone" className="block text-white font-semibold">
-            Celular:
-          </label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            value={formik.values.phone}
-            className="w-full p-3 border border-gray-300 rounded mb-2"
-            required
-          />
-          {formik.touched.phone && formik.errors.phone && (
-            <div className="text-red-500">{formik.errors.phone}</div>
-          )}
-        </div>
+        <div className="mb-4 space-x-2">
+          <div className="w-1/2">
+            <label htmlFor="email" className="block text-white font-semibold">
+              Email:
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.email}
+              className="w-full p-3 border border-gray-300 rounded"
+              required
+            />
+            {formik.touched.email && formik.errors.email && (
+              <div className="text-red-500">{formik.errors.email}</div>
+            )}
+          </div>
 
-        <div className="mb-4">
-          <label htmlFor="email" className="block text-white font-semibold">
-            Email:
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            value={formik.values.email}
-            className="w-full p-3 border border-gray-300 rounded mb-2"
-            required
-          />
-          {formik.touched.email && formik.errors.email && (
-            <div className="text-red-500">{formik.errors.email}</div>
-          )}
+          <div className="w-1/2">
+            <label htmlFor="phone" className="block text-white font-semibold">
+              Celular:
+            </label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.phone}
+              className="w-full p-3 border border-gray-300 rounded"
+              required
+            />
+            {formik.touched.phone && formik.errors.phone && (
+              <div className="text-red-500">{formik.errors.phone}</div>
+            )}
+          </div>
         </div>
 
         <div className="mb-4">
@@ -107,7 +109,7 @@ export function Contact() {
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.message}
-            className="w-full p-3 border border-gray-300 rounded h-48 mb-2"
+            className="w-full p-3 border border-gray-300 rounded h-40"
             required
           />
           {formik.touched.message && formik.errors.message && (
@@ -117,7 +119,7 @@ export function Contact() {
 
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 text-lg"
+          className="w-full bg-blue-500 text-white py-2 px-4 rounded hover-bg-blue-700 text-lg "
         >
           Enviar
         </button>

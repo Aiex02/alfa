@@ -8,7 +8,6 @@ import { Services } from '@/components/Services/Services'
 import { Tech } from '@/components/Tech/Tech'
 import { Contact } from '@/components/Contact/contact'
 import { Clients } from '@/components/Clients/clients'
-import './global.css'
 
 export default function Home() {
   return (

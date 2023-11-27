@@ -5,27 +5,25 @@ import { Footer } from '@/components/Footer/Footer'
 import { AboutUs } from '@/components/AboutUs/AboutUs'
 import { Ilustration } from '@/components/Ilustration/Ilustration'
 import { Services } from '@/components/Services/Services'
-import { Tech } from '@/components/Tech/Tech'
+import { Legi } from '@/components/Legi/Legi'
 import { Contact } from '@/components/Contact/contact'
 import { Clients } from '@/components/Clients/clients'
 
 export default function Home() {
   return (
       <>
-      <NavBar />
       <Ilustration/>
       <Spacer />
       <AboutUs />
       <Spacer />
       <Services />
       <Spacer />
-      <Tech />
+      <Legi />
       <Spacer />
       <Clients />
       <Spacer />
       <Contact />
       <Spacer />
-      <Footer />
       </>
   )
 }

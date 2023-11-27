@@ -34,7 +34,7 @@ export function Contact() {
   });
 
   return (
-    <div className="flex flex-col items-center bg-black">
+    <div className="flex flex-col items-center bg-primary">
       <h1 className="text-3xl font-semibold text-white mb-4 mt-5">Contato</h1>
       <form
         onSubmit={formik.handleSubmit}
@@ -60,7 +60,7 @@ export function Contact() {
         </div>
 
         <div className="mb-4 space-x-2">
-          <div className="w-1/2">
+          <div className="w-full">
             <label htmlFor="email" className="block text-white font-semibold">
               Email:
             </label>
@@ -78,8 +78,10 @@ export function Contact() {
               <div className="text-red-500">{formik.errors.email}</div>
             )}
           </div>
+        </div>
 
-          <div className="w-1/2">
+        <div className="mb-4 space-x-2">
+          <div className="w-full">
             <label htmlFor="phone" className="block text-white font-semibold">
               Celular:
             </label>

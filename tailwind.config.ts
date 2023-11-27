@@ -1,3 +1,4 @@
+
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -8,7 +9,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      colors :{
+        primary: '#0d3954'
+      },
+
+      backgroundImage:{
+        'image1': "url('../assets/alfa-img1.jpg')",
+        'image2': "url('../assets/hero.jpg')"
+      }
     },
   },
   plugins: [],

@@ -1,0 +1,25 @@
+{
+    "Navbar": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "legislation": "Legislation",
+      "clients": "Clients",
+      "contact": "Contact"
+    },
+
+    "Hero":{
+      "text": "Consultancy"
+    },
+
+    "About":{
+      "about us": "About Us",
+      "history": "Our story",
+      "text1": "During the transport journey, the need often arises for face regulatory challenges, such as the requirement for a opacity to continue business operations. That's where Alfa Ritill enters the scene. We are a company dedicated to providing solutions and high-quality services for those who own trucks and they want to aggregate them with carriers. Or, if you are already the owner of a trucking company, we are here to help facilitate compliance with regulatory requirements. What makes us unique is the fact that we are accredited by INEA (Institute State of the Environment) to carry out the Emission Measurement Service Vehicle, as granted in CTA instrument No. IN001928. That means our services are backed by the highest quality and compliance standards.",
+      "mission": "Our Mission",
+      "text2": "Leading our team is Environmental Engineer Roberto de Faria Santos, an experienced and qualified professional spearheading our efforts in vehicle emission measurement. His expertise and deep industry knowledge ensure you're in good hands when it comes to meeting all vehicle emission-related regulations. At Alfa Ritill, we believe in providing reliable, efficient, and personalized service. We are committed to assisting our clients in facing regulatory challenges, saving time and resources, and ensuring they can continue their business operations worry-free. If you're seeking a dependable solution and a committed partner to handle opacity testing and other regulatory requirements, reach out to us. We're prepared to help you navigate the path of compliance and success in transportation. Alfa Ritill: Your Partner in Transportation Regulatory Compliance."
+    }
+
+
+
+  }

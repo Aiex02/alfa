@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 
 import navicon from "@/assets/navicon.png";
 import logo from "@/assets/logo.png";
+import Dropdown from "./languageDropdown";
 
 export function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -18,6 +19,8 @@ export function NavBar() {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  const options = ['PT', "EN"];
 
   return (
     <nav className="bg-primary">
@@ -48,6 +51,11 @@ export function NavBar() {
                 </li>
                 <li className="hover:bg-white hover:text-black rounded-lg p-2">
                   <a href="#contact">{t("contact")}</a>
+                </li>
+                <li className="rounded-lg z-20">
+                  <div className="">
+                    <Dropdown options={options} />
+                  </div>
                 </li>
               </ul>
             </div>

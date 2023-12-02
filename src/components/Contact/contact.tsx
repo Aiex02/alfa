@@ -2,6 +2,7 @@
 import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { useTranslations } from "next-intl";
 
 interface FormValues {
   name: string;
@@ -33,16 +34,18 @@ export function Contact() {
     },
   });
 
+  const t = useTranslations("Contact");
+
   return (
     <div className="flex flex-col items-center bg-primary">
-      <h1 className="text-3xl font-semibold text-white mb-4 mt-5">Contato</h1>
+      <h1 className="text-3xl font-semibold text-white mb-4 mt-5">{t("contact")}</h1>
       <form
         onSubmit={formik.handleSubmit}
         className="w-full max-w-md sm:w-2/3 md:w-1/2 p-5"
       >
         <div className="mb-4">
           <label htmlFor="name" className="block text-white font-semibold">
-            Nome:
+            {t("name")}
           </label>
           <input
             type="text"
@@ -62,7 +65,7 @@ export function Contact() {
         <div className="mb-4 space-x-2">
           <div className="w-full">
             <label htmlFor="email" className="block text-white font-semibold">
-              Email:
+            {t("email")}
             </label>
             <input
               type="email"
@@ -83,7 +86,7 @@ export function Contact() {
         <div className="mb-4 space-x-2">
           <div className="w-full">
             <label htmlFor="phone" className="block text-white font-semibold">
-              Celular:
+            {t("phone")}
             </label>
             <input
               type="tel"
@@ -103,7 +106,7 @@ export function Contact() {
 
         <div className="mb-4">
           <label htmlFor="message" className="block text-white font-semibold">
-            Mensagem:
+          {t("message")}
           </label>
           <textarea
             id="message"
@@ -123,7 +126,7 @@ export function Contact() {
           type="submit"
           className="w-full bg-blue-500 text-white py-2 px-4 rounded hover-bg-blue-700 text-lg "
         >
-          Enviar
+          {t("submit")}
         </button>
       </form>
     </div>

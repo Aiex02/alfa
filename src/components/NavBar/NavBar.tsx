@@ -20,7 +20,7 @@ export function NavBar() {
     setIsMobileMenuOpen(false);
   };
 
-  const options = ['PT', "EN"];
+  const options = ["PT", "EN"];
 
   return (
     <nav className="bg-primary">
@@ -64,6 +64,9 @@ export function NavBar() {
             <button className="mobile-menu-button" onClick={toggleMobileMenu}>
               <Image src={navicon} alt="menu" width={20} height={10} />
             </button>
+            <div className="z-20">
+              <Dropdown options={options} />
+            </div>
           </div>
         </div>
       </div>

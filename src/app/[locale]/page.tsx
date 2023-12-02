@@ -1,3 +1,5 @@
+
+import { NavBar } from '../../components/NavBar/NavBar'
 import { Spacer } from '@/components/Spacer/Spacer'
 import { AboutUs } from '@/components/AboutUs/AboutUs'
 import { Ilustration } from '@/components/Ilustration/Ilustration'

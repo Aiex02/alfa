@@ -20,7 +20,7 @@ export function NavBar() {
     setIsMobileMenuOpen(false);
   };
 
-  const options = ["PT", "EN"];
+  const options = ["PT","EN"];
 
   return (
     <nav className="bg-primary">

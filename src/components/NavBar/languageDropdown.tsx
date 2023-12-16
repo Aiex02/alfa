@@ -54,7 +54,7 @@ const Dropdown: React.FC<DropdownProps> = ({ options }) => {
                   <Link href={`/${option.toLowerCase()}`} passHref>
                     <button
                       onClick={() => selectOption(option)}
-                      className="flex items-center justify-start px-4 py-2 text-sm text-white hover:bg-gray-100 hover:text-black cursor-pointer block w-full text-left" 
+                      className="flex items-center justify-start px-4 py-2 text-sm text-white hover:bg-gray-100 hover:text-black cursor-pointer w-full text-left" 
                       role="menuitem"
                     >
                       <div className="mr-2">

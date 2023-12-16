@@ -7,6 +7,7 @@ import { Services } from '@/components/Services/Services'
 import { Legi } from '@/components/Legi/Legi'
 import { Contact } from '@/components/Contact/contact'
 import { Clients } from '@/components/Clients/clients'
+import WhatsAppButton from '@/components/WhatsappButton/Whatsapp'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <Spacer />
       <Legi />
+      <WhatsAppButton />
       <Spacer />
       <Clients />
       <Spacer />
